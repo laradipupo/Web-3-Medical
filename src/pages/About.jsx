@@ -1,7 +1,7 @@
 import React from 'react'
 import Img1 from '../Assest/about1.png'
 import Img2 from '../Assest/about2.png'
-import { AboutData } from './aboutData'
+import { AboutData } from '../components/aboutData'
 function About() {
     return (
         <section className='my-[122px]'>

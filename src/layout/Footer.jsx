@@ -1,8 +1,10 @@
 import React from 'react'
-import { FooterList } from './footerlist'
-function Footer() {
+import { FooterList } from '../components/footerlist'
+import FAQ from './FAQ'
+const Footer = () => {
   return (
     <footer className=' bg-Black-bg pt-[200px] pb-[60px]'>
+   <FAQ/>
       <div className='flex justify-between space-x-16 font-normal text-base'>
         {FooterList.map(({ id, heading, list }) => {
           return (
@@ -13,7 +15,6 @@ function Footer() {
                 {list.map((listItem, i) => <p key={i} className='hover:text-main-color max-w-[30rem] text-white  '>{listItem} </p>)}
               </div>
             </div>
-
           )
         })}
       </div>

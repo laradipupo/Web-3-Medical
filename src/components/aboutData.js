@@ -16,7 +16,6 @@ export const AboutData = [
     name: "John MOD",
     title: "Family Doctor",
   },
-  ,
   {
     id: 3,
     img: Img5,
