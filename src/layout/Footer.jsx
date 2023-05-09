@@ -1,10 +1,12 @@
 import React from 'react'
 import { FooterList } from '../components/footerlist'
 import FAQ from './FAQ'
+import CTA from './CTA'
 const Footer = () => {
   return (
     <footer className=' bg-Black-bg pt-[200px] pb-[60px]'>
    <FAQ/>
+   <CTA/>
       <div className='flex justify-between space-x-16 font-normal text-base'>
         {FooterList.map(({ id, heading, list }) => {
           return (
