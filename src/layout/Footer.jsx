@@ -2,8 +2,7 @@ import React from 'react'
 import { FooterList } from './footerlist'
 function Footer() {
   return (
-    <footer className='absolute bottom-0 w-full bg-Black-bg pt-[200px] pb-[60px]'>
-
+    <footer className=' bg-Black-bg pt-[200px] pb-[60px]'>
       <div className='flex justify-between space-x-16 font-normal text-base'>
         {FooterList.map(({ id, heading, list }) => {
           return (
