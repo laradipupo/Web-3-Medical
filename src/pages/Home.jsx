@@ -4,6 +4,9 @@ import home2 from '../Assest/home2.png'
 import home3 from '../Assest/home3.png'
 import home4 from '../Assest/home4.png'
 import home5 from '../Assest/home5.png'
+import home6 from '../Assest/home6.png'
+import home7 from '../Assest/home7.png'
+import home8 from '../Assest/home8.png'
 import logo1 from '../Assest/logo1.png'
 import logo2 from '../Assest/logo2.png'
 import logo3 from '../Assest/logo3.png'
@@ -103,15 +106,43 @@ function Home() {
           </div>
         </div>
 
-        <div className='flex flex-col'>
-          <h1></h1>
+        <div className='flex justify-center'>
+          <h1 className='font-bold text-4xl'>How it <span className='text-[#9974ff] '>Works</span></h1>
+        </div>
+        <div>
           <div className='flex justify-between mt-10 mb-10'>
-            <div className='bg-[#D9D9D9]'>
-              <h1>An image</h1>
+            <div className='bg-[#E3E7FF]'>
+              <img src={home6} alt="" className='w-[470px] h-[485px]'/>
             </div>
-            <div className='flex flex-col'>
-            <h1>What They Say About MEDICAL </h1>
-            <p>Integrated with A.I we have prepered everything for you. we will get you answers</p>
+            <div className='flex flex-col justify-center items-center text-center w-[40%]'>
+              <h1 className='font-bold text-4xl'>Tell us your Symptoms </h1>
+              <p>Tell us your situation.. Ask questions on anything bothering your health. We are delighted to provide you with answers</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className='flex justify-between mt-10 mb-10'>
+            <div className='flex flex-col justify-center items-center w-[40%]'>
+              <h1 className='font-bold text-4xl'>Get matched with a Doctor </h1>
+              <p>An expert doctor is already waiting for you.
+We will connect you in  seconds  at anytime 
+you request.</p>
+            </div>
+            <div className='bg-[#EAEDFF]'>
+              <img src={home7} alt="" className='w-[470px] h-[485px]'/>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className='flex justify-between mt-10 mb-20'>
+            <div>
+              <img src={home8} alt="" className='w-[470px] h-[485px]'/>
+            </div>
+            <div className='flex flex-col justify-center items-center text-center w-[40%]'>
+              <h1 className='font-bold text-4xl'>Get <span className='text-[#9974FF]'>Personalized</span> treatment and Prescription. </h1>
+              <p>Experience total wellness with our doctor’s recommended treatment, and to make it easier we will refer you to the best Drug store in your area.</p>
             </div>
           </div>
         </div>
