@@ -26,7 +26,17 @@ function Home() {
         <div className='flex flex-col mt-[100px]'>
           <h1 className='max-w-[45rem] font-bold text-6xl'>SOLUTION ON YOUR HEALTH ONLINE</h1>
           <p className='mt-10 mb-10 max-w-[35rem]'>Make an appointment with a doctor without a queue, buy medicines. We provide you 24/7 access to expert doctors and get answer. </p>
-          <div>Book your appointment</div>
+          <div className='border rounded flex justify-center'>
+            <div className='mt-5 mb-5 flex flex-col w-[95%]'>
+              <div>
+                <h1 className='font-bold '>Search your symptoms here</h1>
+              </div>
+              <form action="">
+                <input type="text" className='border w-[70%]'/>
+                <button>Search</button>
+              </form>
+            </div>
+          </div>
         </div>
         <div className='flex mt-[65px] gap-3'>
           <div className='flex flex-col'>
@@ -125,9 +135,7 @@ function Home() {
           <div className='flex justify-between mt-10 mb-10'>
             <div className='flex flex-col justify-center items-center w-[40%]'>
               <h1 className='font-bold text-4xl'>Get matched with a Doctor </h1>
-              <p>An expert doctor is already waiting for you.
-We will connect you in  seconds  at anytime 
-you request.</p>
+              <p>An expert doctor is already waiting for you. We will connect you in  seconds  at anytime you request.</p>
             </div>
             <div className='bg-[#EAEDFF]'>
               <img src={home7} alt="" className='w-[470px] h-[485px]'/>
