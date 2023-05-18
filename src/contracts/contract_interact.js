@@ -1492,7 +1492,7 @@ async function givePermission(address){
 async function placeOrder(drugName,quantity){
     if(await requestPermission()){
         try {
-            return await medicalContract.methods.placeOrder(drugName,quantity).call();
+            return await medicalContract.methods.placeOrder(drugName,quantity).send();
         } catch (error) {
             console.error('Error:', error);
         }
