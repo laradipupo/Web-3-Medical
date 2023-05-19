@@ -33,7 +33,7 @@ function Home() {
               </div>
               <form action="">
                 <input type="text" className='border w-[70%]'/>
-                <button>Search</button>
+                <button className='text-white bg-main-color py-[0.875rem] px-8 rounded-lg'>Search</button>
               </form>
             </div>
           </div>
