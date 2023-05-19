@@ -26,8 +26,12 @@ function Home() {
         <div className='flex flex-col mt-[100px]'>
           <h1 className='max-w-[45rem] font-bold text-6xl'>SOLUTION ON YOUR HEALTH ONLINE</h1>
           <p className='mt-10 mb-10 max-w-[35rem]'>Make an appointment with a doctor without a queue, buy medicines. We provide you 24/7 access to expert doctors and get answer. </p>
-          <div className='border rounded flex justify-center'>
-            <div className='mt-5 mb-5 flex flex-col w-[95%]'>
+          <div className='flex start bg-[#9974FF] w-[20%]'>
+            <button className=' text-white bg-main-color py-[0.875rem] px-8 rounded-lg'>Get Started</button>
+          </div>
+
+          {/* <div className='border rounded flex justify-center'>
+            <div className='mt-5 mb-5 flex flex-col w-[95%] absolute right-2'>
               <div>
                 <h1 className='font-bold '>Search your symptoms here</h1>
               </div>
@@ -36,7 +40,7 @@ function Home() {
                 <button>Search</button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className='flex mt-[65px] gap-3'>
           <div className='flex flex-col'>

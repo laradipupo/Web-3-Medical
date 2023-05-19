@@ -14,9 +14,9 @@ const Navbar = () => {
             <nav className='flex justify-between items-center pt-5'>
                 <div>
                     <ul className='flex items-center space-x-9 font-bold text-sm '>
-                        <li className={`cursor-pointer text-base text-black ${pathRoute('/') && '!text-main-color'}`} onClick={() => navigate('/')}>MEDICAL</li>
+                        <li className={`cursor-pointer text-base text-black ${pathRoute('/') && '!text-main-color'}`} onClick={() => navigate('/')}>Track Health</li>
                         <li className={`cursor-pointer text-black ${pathRoute('/about') && '!text-main-color'}`} onClick={() => navigate('/about')}>About Us </li>
-                        <li>For Doctors</li>
+                        <li className={`cursor-pointer text-black ${pathRoute('/doctors') && '!text-main-color'}`} onClick={() => navigate('/doctors')}>For Doctors</li>
                         <li>For Patient</li>
                         <li>Pricing</li>
                     </ul>
